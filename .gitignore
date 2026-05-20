@@ -1,0 +1,12 @@
+node_modules/
+dist/
+
+.DS_Store
+.env
+.env.*
+
+debug-*
+tmp-*
+
+.vendor/
+public/rhwp-studio/

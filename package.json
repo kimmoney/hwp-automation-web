@@ -1,0 +1,27 @@
+{
+  "name": "hwp-automation-web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "generate:brand-assets": "node scripts/generate-brand-assets.mjs",
+    "test:merge": "tsx scripts/test-hwpx-merge.ts",
+    "test:rhwp-e2e": "tsx scripts/test-rhwp-e2e.ts",
+    "test:browser-e2e": "tsx scripts/test-browser-e2e.ts",
+    "test": "npm run test:merge && npm run test:rhwp-e2e"
+  },
+  "dependencies": {
+    "@rhwp/core": "^0.7.12",
+    "@rhwp/editor": "^0.7.12",
+    "fflate": "^0.8.3",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.7"
+  },
+  "devDependencies": {
+    "playwright": "^1.60.0",
+    "tsx": "^4.22.3"
+  }
+}

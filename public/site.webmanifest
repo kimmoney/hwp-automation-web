@@ -1,0 +1,21 @@
+{
+  "name": "한글 문서 자동 채우기",
+  "short_name": "문서 자동채우기",
+  "description": "HWP/HWPX 양식을 표 데이터로 일괄 채우는 웹 자동화 도구",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
