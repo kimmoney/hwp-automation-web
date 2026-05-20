@@ -1,6 +1,7 @@
 node_modules/
 dist/
 
+.git/
 .DS_Store
 .env
 .env.*
@@ -10,4 +11,3 @@ tmp-*
 
 .vendor/
 public/rhwp-studio/
-.vercel
